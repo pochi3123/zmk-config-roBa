@@ -51,7 +51,7 @@
         };
     };
 
-    mkp_exit_AML: mkp_exit_AML {
+    mmkp_exit_AML: mkp_exit_AML {
     compatible = "zmk,behavior-macro-one-param";
     #binding-cells = <1>;
     bindings = <
@@ -63,11 +63,9 @@
         &macro_tap
         &sl 4
     >;
+    label = "MKP_EXIT_AML";
 };
-r
 
-label = "MKP_EXIT_AML";
-};
 
 
 
