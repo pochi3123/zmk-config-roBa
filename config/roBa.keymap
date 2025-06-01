@@ -66,8 +66,9 @@
 };
 r
 
-    label = "MKP_EXIT_AML";
-    };
+label = "MKP_EXIT_AML";
+};
+
 
 
     behaviors {
